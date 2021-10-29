@@ -4,5 +4,5 @@ from .views import *
 
 urlpatterns = [
     path('tomaradn/', tomarADN),
-    path('chequearADN/', verificarADN)
+    path('verificarADN/<int:pk>/', verificarADN)
 ]
